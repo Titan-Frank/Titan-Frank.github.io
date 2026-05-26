@@ -26,7 +26,7 @@ window.siteData = {
     tools: ["Python", "JavaScript", "LLM Apps", "Agents", "Data workflows", "GitHub"],
     stats: ["ECNU", "Shanghai", "LLM x Education"],
     contactCopy:
-      "The best way to reach me right now is through GitHub. I am especially interested in collaboration around intelligent education, knowledge tools, and LLM applications.",
+      "You can reach me via email or GitHub. I am especially interested in collaboration around intelligent education, knowledge tools, and LLM applications.",
     primaryAction: {
       label: "View Projects",
       href: "#projects",
@@ -100,6 +100,7 @@ window.siteData = {
   ],
   contacts: [
     { label: "GitHub", href: "https://github.com/Titan-Frank" },
+    { label: "Email", href: "mailto:51285900030@stu.ecnu.edu.cn" },
     { label: "Homepage Repo", href: "https://github.com/Titan-Frank/Titan-Frank.github.io" },
   ],
 };
