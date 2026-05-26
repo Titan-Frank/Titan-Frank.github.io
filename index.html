@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | GitHub Homepage</title>
+    <meta
+      name="description"
+      content="A personal GitHub homepage template for developers, makers, and creative technologists."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#hero">
+          <span class="brand-mark" id="brand-mark">YN</span>
+          <span class="brand-text" id="brand-text">Your Name</span>
+        </a>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="hero">
+          <div class="hero-copy reveal">
+            <p class="eyebrow" id="hero-eyebrow">Developer Portfolio</p>
+            <h1 id="hero-title">Your Name</h1>
+            <p class="hero-lead" id="hero-lead">
+              Building thoughtful software, playful experiments, and sharp product experiences.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" id="primary-link" href="#projects">See Projects</a>
+              <a class="button button-secondary" id="secondary-link" href="#contact">Get in Touch</a>
+            </div>
+            <ul class="stat-list" id="stat-list"></ul>
+          </div>
+
+          <aside class="hero-card reveal">
+            <div class="orbit orbit-a"></div>
+            <div class="orbit orbit-b"></div>
+            <div class="profile-chip">
+              <span class="profile-avatar" id="profile-avatar">YN</span>
+              <div>
+                <p class="profile-name" id="card-name">Your Name</p>
+                <p class="profile-role" id="card-role">Full-stack Developer</p>
+              </div>
+            </div>
+            <div class="hero-panel">
+              <p class="panel-label">Current focus</p>
+              <p class="panel-copy" id="focus-copy">
+                Shipping developer tools, interactive web experiences, and open source experiments.
+              </p>
+            </div>
+            <div class="hero-panel">
+              <p class="panel-label">Now available for</p>
+              <ul class="panel-list" id="availability-list"></ul>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section reveal" id="about">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>What I care about</h2>
+          </div>
+          <div class="about-grid">
+            <article class="card card-large">
+              <p id="about-copy">
+                I enjoy turning ambitious ideas into simple, fast, and memorable products.
+              </p>
+            </article>
+            <article class="card">
+              <p class="card-title">Strengths</p>
+              <ul class="tag-list" id="strength-list"></ul>
+            </article>
+            <article class="card">
+              <p class="card-title">Toolbox</p>
+              <ul class="tag-list" id="tool-list"></ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Work</p>
+            <h2>Projects worth clicking into</h2>
+          </div>
+          <div class="project-grid" id="project-grid"></div>
+        </section>
+
+        <section class="section reveal" id="timeline">
+          <div class="section-heading">
+            <p class="eyebrow">Timeline</p>
+            <h2>Recent chapters</h2>
+          </div>
+          <div class="timeline" id="timeline-list"></div>
+        </section>
+
+        <section class="section reveal" id="contact">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Let's build something good</h2>
+          </div>
+          <div class="contact-card">
+            <p class="contact-copy" id="contact-copy">
+              Open to collaborations, freelance work, and thoughtful side projects.
+            </p>
+            <div class="contact-links" id="contact-links"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p id="footer-text">Made with code and curiosity.</p>
+        <a id="github-link" href="https://github.com/" target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+      </footer>
+    </div>
+
+    <script src="./site-data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
