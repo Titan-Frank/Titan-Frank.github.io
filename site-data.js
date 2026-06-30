@@ -3,13 +3,14 @@ window.siteData = {
     title: "Wenbo Wu | LLM for Education",
     description:
       "Wenbo Wu is a master's student at East China Normal University, focusing on LLM-powered intelligent education.",
+    image: "https://avatars.githubusercontent.com/u/49812229?v=4",
     footer: "Built for research, open source, and thoughtful systems.",
   },
   profile: {
     name: "Wenbo Wu",
     initials: "WW",
     role: "M.S. Student in Computer Science",
-    eyebrow: "Researcher / Builder / Open Source Explorer",
+    eyebrow: "LLM for Education / Knowledge Systems",
     lead:
       "Master's student at East China Normal University, advised by Prof. Aimin Zhou, exploring LLM-powered intelligent education and practical AI systems.",
     about:
@@ -23,8 +24,8 @@ window.siteData = {
       "Research prototyping",
       "Agentic systems",
     ],
-    tools: ["Python", "JavaScript", "LLM Apps", "Agents", "Data workflows", "GitHub"],
-    stats: ["ECNU", "Shanghai", "LLM x Education"],
+    tools: ["Python", "JavaScript", "LLM Apps", "Agents", "Data Workflows", "GitHub"],
+    stats: ["ECNU", "Prof. Aimin Zhou", "LLM x Education"],
     contactCopy:
       "You can reach me via email or GitHub. I am especially interested in collaboration around intelligent education, knowledge tools, and LLM applications.",
     primaryAction: {
@@ -48,13 +49,13 @@ window.siteData = {
       ],
     },
     {
-      title: "Open-Knowledge-Map",
-      meta: "Knowledge System / Research Tool",
+      title: "World-Knowledge-Map",
+      meta: "Knowledge Map / Exploration",
       description:
-        "An open exploration into structuring and navigating knowledge with machine assistance, aimed at making complex information spaces more legible and useful.",
-      tags: ["Python", "Knowledge", "Research"],
+        "A knowledge mapping experiment for exploring how complex information spaces can be organized, navigated, and connected for learning and research.",
+      tags: ["Knowledge", "Research", "Learning"],
       links: [
-        { label: "Repository", href: "https://github.com/Titan-Frank/Open-Knowledge-Map" },
+        { label: "Repository", href: "https://github.com/Titan-Frank/World-Knowledge-Map" },
       ],
     },
     {
